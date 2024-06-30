@@ -1,7 +1,9 @@
+import CountText from "./components/countText"
+
 function App() {
   return (
     <>
-      hello world!!!
+      <CountText className="" title="score" value="0"/>
     </>
   )
 }
