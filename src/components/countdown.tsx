@@ -14,13 +14,8 @@ const Countdown:FC<CountdownProps> = ({
     let [active, setActive] = useState(true)
 
     useEffect(() => {
-        if (count == 0) {
-            setCount(3)
-            return setActive(false)
-        } 
-
         let time = setTimeout(() => {
-            setCount(--count)
+            if (count != 0) setCount(--count)
         }, 500)
 
         return () => clearTimeout(time)

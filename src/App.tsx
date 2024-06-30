@@ -4,12 +4,12 @@ import Countdown from "./components/countdown"
 import "./styles/app.css"
 import { useState } from "react"
 import Button from "./components/button"
+import Stopwatch from "./components/stopwatch"
 
 function App() {
   return (
     <>
-      <Countdown className="countdown" value={3}/>
-      <Button className="" onClick={() => {}} title="Play"/>
+      <Stopwatch/>
     </>
   )
 }
