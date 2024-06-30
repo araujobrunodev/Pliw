@@ -5,11 +5,12 @@ import "./styles/app.css"
 import { useState } from "react"
 import Button from "./components/button"
 import Stopwatch from "./components/stopwatch"
+import Scoreboard from "./components/scoreboard"
 
 function App() {
   return (
     <>
-      <Stopwatch/>
+      <Scoreboard hiddenLevel={false}/>
     </>
   )
 }
