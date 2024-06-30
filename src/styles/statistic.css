@@ -1,0 +1,16 @@
+.main_stat {
+    flex: 1;
+    display: flex;
+    flex-flow: wrap column;
+    border: 0.1rem solid white;
+    gap: 0.5rem;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    margin: 0rem 3rem;
+}
+
+.item_stat {
+    color: white;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+}
