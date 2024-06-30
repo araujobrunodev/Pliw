@@ -1,0 +1,25 @@
+.scoreboard {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 2.7rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.arrow_button {
+    background-color: transparent;
+    border: none;
+}
+
+.arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.status, .level {
+    color: white;
+    font-size: 1.7rem;
+    margin: 0px;
+    line-height: 3rem;
+}
