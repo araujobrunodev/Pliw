@@ -5,11 +5,9 @@ import "./styles/app.css"
 import { useState } from "react"
 
 function App() {
-  let [hide, setHide] = useState(false)
-
   return (
     <>
-      <Countdown hidden={hide}/>
+      <Countdown className="countdown" value={3}/>
     </>
   )
 }

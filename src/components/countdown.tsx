@@ -2,14 +2,16 @@ import { FC, useEffect, useState } from "react"
 import "../styles/countdown.css"
 
 interface CountdownProps {
-    hidden: boolean,
+    value: number,
+    className: string
 }
 
 const Countdown:FC<CountdownProps> = ({
-    hidden
+    value,
+    className
 }) => {
-    let [count, setCount] = useState(3)
-    let [active, setActive] = useState(hidden)
+    let [count, setCount] = useState(value)
+    let [active, setActive] = useState(true)
 
     useEffect(() => {
         if (count == 0) {
@@ -27,7 +29,7 @@ const Countdown:FC<CountdownProps> = ({
     return (
         <>
             { active && 
-                <h1 className="countdown">
+                <h1 className={className}>
                     {count}
                 </h1>
             }
