@@ -7,11 +7,12 @@ import Button from "./components/button"
 import Stopwatch from "./components/stopwatch"
 import Scoreboard from "./components/scoreboard"
 import LevelWarning from "./components/levelwarning"
+import ResetGame from "./components/resetGame"
 
 function App() {
   return (
     <>
-      <LevelWarning overcome={35}/>
+      <ResetGame hidden={false} state="lost"/>
     </>
   )
 }
