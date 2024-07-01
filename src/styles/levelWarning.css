@@ -1,0 +1,24 @@
+.levelWarning {
+    display: flex;
+    flex-flow: wrap column;
+    margin: 0rem 3rem;
+}
+
+.levelWarning_p, .levelWarning .level {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.levelWarning_p {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    font-size: 27px;
+}
+
+.levelWarning .level {
+    padding-top: 10px;
+    font-size: 27px;
+}
+
