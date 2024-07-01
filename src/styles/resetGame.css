@@ -1,0 +1,49 @@
+.resetGame {
+    display: flex;
+    flex-flow: wrap column;
+    font-family: "Inter", sans-serif;
+    margin: 0rem 3rem;
+    gap: 0.7rem;
+}
+
+.items {
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title_items, .score {
+    text-align: center;
+    margin: 0px;
+}
+
+.title_items {
+    color: white;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.score {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.reset_button {
+    background-color: #FF8A00;
+    color: white;
+    border: none;
+    margin: 1rem 4rem;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    padding: 0.6rem;
+}
+
+.resetGame .level {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin: 0px;
+}
